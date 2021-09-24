@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="87" started-at="2021-08-12T09:06:53 CEST" finished-at="2021-08-12T09:06:54 CEST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="87" started-at="2021-08-12T09:06:53 CEST" finished-at="2021-08-12T09:06:54 CEST">
+      <class name="mavencourse.AppiumTest">
+        <test-method status="PASS" signature="AppiumTestCase1()[pri:0, instance:mavencourse.AppiumTest@13a5fe33]" name="AppiumTestCase1" duration-ms="8" started-at="2021-08-12T09:06:54 CEST" finished-at="2021-08-12T09:06:54 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumTestCase1 -->
+        <test-method status="PASS" signature="AppiumTestCase2()[pri:0, instance:mavencourse.AppiumTest@13a5fe33]" name="AppiumTestCase2" duration-ms="0" started-at="2021-08-12T09:06:54 CEST" finished-at="2021-08-12T09:06:54 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumTestCase2 -->
+      </class> <!-- mavencourse.AppiumTest -->
+      <class name="mavencourse.SeleniumTest">
+        <test-method status="PASS" signature="SeleniumTestCase1()[pri:0, instance:mavencourse.SeleniumTest@210366b4]" name="SeleniumTestCase1" duration-ms="0" started-at="2021-08-12T09:06:54 CEST" finished-at="2021-08-12T09:06:54 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumTestCase1 -->
+        <test-method status="PASS" signature="SeleniumTestCase2()[pri:0, instance:mavencourse.SeleniumTest@210366b4]" name="SeleniumTestCase2" duration-ms="0" started-at="2021-08-12T09:06:54 CEST" finished-at="2021-08-12T09:06:54 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumTestCase2 -->
+      </class> <!-- mavencourse.SeleniumTest -->
+      <class name="mavencourse.RESTAPITest">
+        <test-method status="PASS" signature="RESTAPITestCase1()[pri:0, instance:mavencourse.RESTAPITest@335eadca]" name="RESTAPITestCase1" duration-ms="0" started-at="2021-08-12T09:06:54 CEST" finished-at="2021-08-12T09:06:54 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RESTAPITestCase1 -->
+        <test-method status="PASS" signature="RESTAPITestCase2()[pri:0, instance:mavencourse.RESTAPITest@335eadca]" name="RESTAPITestCase2" duration-ms="1" started-at="2021-08-12T09:06:54 CEST" finished-at="2021-08-12T09:06:54 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RESTAPITestCase2 -->
+      </class> <!-- mavencourse.RESTAPITest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
