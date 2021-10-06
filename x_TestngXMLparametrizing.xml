@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test suite">
+    <!--Tworzę tag 'parameter', dzięki któremu mogę tworzyć zmienne, które potem mogę przekazywać do test casów, bez ich hardkodowania,
+    Tag 'parameter' utworzony bezpośrednio pod 'suite' będzie działał na cały test suite,
+    aczkolwiek parametr o tej samej nazwie zdefiniowany na poziomie test folderu będzie nadpisywał ten zdefiniowany na poziomie test suite-->
+    <parameter name="URL" value="Some URL defined on the test suite level"/>
+    <test verbose="2" preserve-order="true" name="test folder 1">
+        <classes>
+            <class name="mavencourse.x_TestngXMLparametrizing">
+                <methods>
+                    <include name="parametrizedTestCase1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="test folder 2">
+        <!-- Analogicznie tag 'parameter' utworzony bezp. pod tagiem 'test' będzie działał tylko w obrębie tego test folderu,
+         przykład użycia: mam dwa różne test foldery, wewn. których mam te same test casy, ale wykonywane na różnych adresach URL,
+         wtedy właśnie mogę sobie sparametryzować URL w zależności od test folderu-->
+        <parameter name="URL" value="Some URL definded on the test folder level"/>
+        <parameter name="username" value="cool user"/>
+        <classes>
+            <class name="mavencourse.x_TestngXMLparametrizing">
+                <methods>
+                    <include name="parametrizedTestCase2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
