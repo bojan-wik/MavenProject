@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="test suite">
+    <!--W tagu <Listeners> przekazuję wiedzę o klasie, która implementuje interfejs z listenerami -->
     <listeners>
         <listener class-name="mavencourse.z_Listeners"/>
     </listeners>
